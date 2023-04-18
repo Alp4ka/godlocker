@@ -1,6 +1,12 @@
 # Go Distributed Locker (Go D Locker)
 Sugared distributed locker implementation for golang 1.20.
 
+
+# Locker implementations:
+1) Redis ✅ using https://github.com/go-redsync/redsync
+2) ZooKeeper **WIP**
+3) ETCD **WIP**
+
 # Usage 
 ```golang
 import (
