@@ -1,4 +1,4 @@
-# DistributedLocker
+# Go Distributed Locker (Go D Locker)
 Sugared distributed locker implementation for golang 1.20.
 
 # Usage 
