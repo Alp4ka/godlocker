@@ -41,7 +41,7 @@ func main() {
   // Here we create redis connection(redisConn)
   
   // Use redis locker. (It's possible to create custom distributed locker storage)
-  locker := redislocker.NewRedisLocker(redisConn)
+  redisLocker := redislocker.NewRedisLocker(redisConn)
   
   // Custom locker implementation that uses clientID as locker label.
   clientLocker := clientlocker.NewClientLocker(redisLocker)
